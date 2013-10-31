@@ -30,7 +30,7 @@ Sensors sensor;
 Servo larm;
 Servo rarm;
 
-CapacitiveSensor belly_cap = CapacitiveSensor(2,13);       
+// CapacitiveSensor belly_cap = CapacitiveSensor(2,13);       
 // CapacitiveSensor cs_2_4 = CapacitiveSensor(2,4);        
 // CapacitiveSensor cs_2_5 = CapacitiveSensor(2,5);
 
@@ -39,7 +39,7 @@ CapacitiveSensor belly_cap = CapacitiveSensor(2,13);
 ///////////////////////////////////////////////////
 
 void setup() {
-  belly_cap.set_CS_AutocaL_Millis(0xFFFFFFFF);     // turn off autocalibrate on channel 1 - just as an example
+  // belly_cap.set_CS_AutocaL_Millis(0xFFFFFFFF);     // turn off autocalibrate on channel 1 - just as an example
   // cs_2_4.set_CS_AutocaL_Millis(0xFFFFFFFF);
   // cs_2_5.set_CS_AutocaL_Millis(0xFFFFFFFF);
 
@@ -73,14 +73,14 @@ void loop() {
 
 void poll_sensors(Sensors *sensor)
 {
-  long start = millis();
-  long belly = belly_cap.capacitiveSensor(30);
+  // long start = millis();
+  // long belly = belly_cap.capacitiveSensor(30);
   // long left_arm = cs_2_4.capacitiveSensor(30);
   // long right_arm = cs_2_5.capacitiveSensor(30);
 
-  Serial.print(millis() - start);        // check on performance in milliseconds
-  Serial.print("\t");                    // tab character for debug windown spacing
-  Serial.println(belly);                  // print sensor output 1
+  // Serial.print(millis() - start);        // check on performance in milliseconds
+  // Serial.print("\t");                    // tab character for debug windown spacing
+  // Serial.println(belly);                  // print sensor output 1
   // Serial.print("\t");
   // Serial.print(left_arm);                  // print sensor output 2
   // Serial.print("\t");
