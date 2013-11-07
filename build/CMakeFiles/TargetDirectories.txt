@@ -1,0 +1,6 @@
+/home/ubuntu/2009red/build/CMakeFiles/clean_test_results.dir
+/home/ubuntu/2009red/build/CMakeFiles/doxygen.dir
+/home/ubuntu/2009red/build/gtest/CMakeFiles/gtest.dir
+/home/ubuntu/2009red/build/gtest/CMakeFiles/gtest_main.dir
+/home/ubuntu/2009red/build/CMakeFiles/run_tests.dir
+/home/ubuntu/2009red/build/CMakeFiles/tests.dir
